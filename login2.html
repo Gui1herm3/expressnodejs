@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+   <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <title>Tela de login</title>
+       <link rel="stylesheet" href="style.css">
+       
+   </head>
+           
+    <body>
+        <div>
+<button onclick="voltar()" class="seta" style="font-size: 22px;">&#8592</button>
+<button onclick="inicio()" class="inicio" style="font-size: 15px;">&#916 Inicio</button>
+ 
+</div>      
+<h1>Login</h1>
+<br>
+
+<!--Formulario-->
+
+<form action="/action_page.php">
+
+<div class="emaill">
+    <label for="e-mail"> E-Mail:</label>
+    <input placeholder="seu@email.com" type="text" id="Email" required>
+</div>
+
+<br> 
+<div class="senha">
+<label for="senha"> Senha:</label>
+<input placeholder="Senha" type="password" id="Senha" required>
+</div>
+    
+<br>
+
+<div class="esquecer">Forgot <a href="#" disabled="true">password?</a></div> 
+
+<br>
+<div class="btn">
+
+    <button onclick="main()" type="button"  class="botao1">Entrar</button>
+    <button onclick="cadastro() "type="button" value="Cadastrar-se" class="botao2">Cadastre-se</button>
+
+</div>
+</form>
+<!--Rodapé-->
+<footer class="rodape"><b>Todos os direitos reservados©2023</b></footer>
+<script src="script.js"></script>
+
+</body>
+</html>
